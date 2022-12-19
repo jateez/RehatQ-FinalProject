@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <title>Sign in to RehatQ</title>
+  </head>
+
+  <body>
+    <nav id="navbarUl" class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span id="RehatQlogo" class="navbar-brand h1 ps-4">RehatQ</span>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="nav navbar-nav mx-2" style="border-radius: 25px">
+            <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="bacaanRehatQ.html"> Bacaan RehatQ </a></li>
+            <li class="nav-item"><a class="nav-link" href="konseling.html"> Konseling </a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html"> Tentang kami </a></li>
+            <li class="nav-item active"><a class="nav-link active" href="logAccount.html"> Log in </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container mx-auto p-5">
+      <div class="row justify-content-center">
+       <h2 style="text-align: center; margin-bottom: 0.075em; margin-top: 0.25em;"> Log in to your account </h2>
+       <h6 style="opacity: calc(50%); font-size: small;"> Welcome back! Please enter your details. </h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="container w-50 mt-3 px-sm-5">
+          <form>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3" >
+              <label for="inputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="mb-3 form-check">
+              <div class="row">
+                <div class="col">
+                  <input type="checkbox" class="form-check-input" id="rememberInfo">
+                  <label for="rememberInfo" class="form-check-label w-100"> Remember me</label>
+                </div>
+                <div class="col justify-content-end" style="text-align: right;">
+                  <label id="forgotPass" class="link-primary">
+                    <a href="Maintenance.html"> Forgot password</a>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Get started</button>
+            <button type="submit" class="btn btn-light w-100 my-3"> 
+              <img src="/assets/google.png" width="15" height="15" alt="">
+              <span  style="color: blue;"> Sign up with Google </span> 
+              </button>
+            <div class="row d-block justify-content-center mt-4" style="text-align: center;">
+              Don't have an account?
+            <a style="padding: 0em;" href="createAccount.html">Sign up</a> 
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

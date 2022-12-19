@@ -1,0 +1,114 @@
+@font-face {
+  font-family: futur;
+  src: url(/futura/futur.ttf) format("trueType");
+}
+@font-face {
+  font-family: futura2;
+  src: url(/futura_md_bt/FUTURAB.TTF);
+}
+@font-face {
+  font-family: "inter";
+  src: url(/Inter/static/Inter-Regular.ttf) format("trueType");
+}
+* {
+}
+
+#navbarUl {
+  /* background: rgba(88, 168, 247, 0.7); */
+  /* background-color: #1E81B0; */
+  /* background-color: #4DAECF; */
+  /* background-color: #0E4C7D; */
+  background-color: #156596;
+}
+nav ul li a {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: inter;
+
+  /* background-color: rgba(180, 195, 247, 0.5); */
+  background-color: #1e81b0;
+  /* background-color: #4DAECF; */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#navbarNav ul li a {
+  /* color: #0d6efd; */
+  color: #ebebeb;
+  margin-inline: 0.05em;
+}
+#navbarNav ul li {
+}
+nav ul li .active {
+  font-weight: 800;
+}
+
+#RehatQlogo {
+  font-family: inter;
+  /* color: #0d6efd; */
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+}
+#footerRehatQ a {
+  text-decoration: none;
+  color: #0054a8;
+}
+#aboutus h3 {
+  font-family: futura2;
+  color: #0054a8;
+  font-weight: bolder;
+}
+#aboutus p {
+  font-family: inter;
+  font-size: 18px;
+}
+#bacaanRehatQp1 {
+  align-items: center;
+  justify-content: center;
+  font-family: futura2;
+  color: #0054a8;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+
+#contentMenu .row {
+  padding-top: 1.25em;
+}
+
+#konselingHead {
+  font-family: futura2;
+  color: #0054a8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#contentMenu a {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+#alur h4 {
+  padding: 0.5em;
+  font-family: inter;
+  color: #ebebeb;
+  align-items: center;
+}
+
+.row h6 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.row h2 {
+  font-family: sans-serif;
+}
